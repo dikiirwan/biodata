@@ -1,0 +1,221 @@
+html {
+    position: relative;
+    scroll-behavior: smooth;
+}
+
+.header {
+    background-color: white;
+    min-height: 25px;
+    text-align: center;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.content {
+    background-color: #ddd;
+    min-height: 500px;
+    overflow: auto;
+    padding: 10px;
+}
+
+.content h1 {
+    padding-top: 20px;
+    text-align: center;
+    color: black;
+    font-size: 2vw;
+}
+
+.footer {
+    background-color: #ddd;
+    min-height: 30px;
+    padding: 10px;
+    text-align: center;
+}
+
+.menu {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: -10px;
+    background-color: #ddd;
+    min-height: 25px;
+    width: 800px;
+    text-align: center;
+    position: fixed;
+}
+
+.menu ul {
+    padding: 0;
+}
+
+.menu ul li {
+    display: inline-block;
+
+}
+
+.menu ul li a {
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.content p {
+    text-align: justify;
+    width: 90%;
+}
+
+
+.content img {
+    border-radius: 100%;
+    width: 280px;
+    margin: 10px;
+    float: left;
+    padding-right: 10px;
+}
+
+.biodata {
+    background-color: rgb(236, 236, 236);
+    min-height: 500px;
+    overflow: auto;
+    padding: 10px;
+}
+
+.biodata p {
+    text-align: center;
+    width: 100%;
+}
+
+.biodata h1 {
+    padding-top: 20px;
+    text-align: center;
+    color: black;
+    font-size: 2vw;
+}
+
+.contact {
+    background-color: #ddd;
+    min-height: 500px;
+    overflow: auto;
+    padding: 10px;
+}
+
+.contact h1 {
+    padding-top: 20px;
+    text-align: center;
+    color: black;
+    font-size: 2vw;
+}
+
+.contact p {
+    text-align: center;
+    padding: 40px;
+}
+
+.skills {
+    background-color: rgb(236, 236, 236);
+    min-height: 500px;
+    overflow: auto;
+}
+
+.skills h1 {
+    padding-top: 20px;
+    text-align: center;
+    color: black;
+    font-size: 2vw;
+}
+
+.skills ul {
+    padding-top: 20px;
+}
+
+hr {
+    width: 250px;
+    border-top: 3px solid #999;
+}
+
+a.circle-biodata {
+    border-radius: 100%;
+    width: 110px;
+    height: 110px;
+    margin: 10px;
+    float: left;
+    font-family: arial, 'Arial Narrow Bold';
+    color: white;
+    text-decoration: none;
+    padding-top: 45px;
+    font-size: 14px;
+    float: left;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: rgb(255, 15, 107);
+}
+
+a.circle-biodata:hover {
+    background-color: rgb(223, 4, 88);
+}
+
+a.circle-contact {
+    border-radius: 100%;
+    width: 110px;
+    height: 110px;
+    margin: 10px;
+    float: left;
+    font-family: arial, 'Arial Narrow Bold';
+    color: white;
+    text-decoration: none;
+    padding-top: 45px;
+    font-size: 14px;
+    float: left;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: rgb(3, 224, 231);
+}
+
+a.circle-contact:hover {
+    background-color: rgb(3, 179, 185);
+}
+
+a.circle-skill {
+    border-radius: 100%;
+    width: 110px;
+    height: 110px;
+    margin: 10px;
+    font-family: arial, 'Arial Narrow Bold';
+    color: white;
+    text-decoration: none;
+    margin-right: 70px;
+    padding-top: 45px;
+    font-size: 14px;
+    float: left;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: rgb(221, 224, 2);
+}
+
+a.circle-skill:hover {
+    background-color: rgb(181, 184, 2);
+}
+
+.thumbnail {
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    width: 225px;
+    margin: 10px;
+    float: left;
+}
+
+.thumbnail img {
+    width: 100%;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.4;
+}
